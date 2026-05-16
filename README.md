@@ -1,17 +1,24 @@
-## object
-: USE TO MY DOMAIN SERVER ON INTERNET
+## 목표 (Object)
+개인 도메인 서버를 활용하여 인터넷에 웹사이트를 배포
+
+## 로컬 PC 작업 (노트북)
+index.html 파일을 프로젝트 루트 디렉토리에 추가한 후, 
+PowerShell 또는 명령 프롬프트(CMD)를 열고 아래 명령어를 순서대로 입력
+
+git init                                  # 저장소 초기화
+
+git add .                                 # 모든 변경 파일 스테이징 영역에 추가
+
+git commit -m "first commit"              # 첫 번째 커밋 생성
+
+git branch -M main                        # 기본 브랜치 이름을 main으로 변경
+
+git remote add origin "repository 주소"   # 원격 저장소(GitHub 등) 연결
+
+git push -u origin main                   # 원격 저장소의 main 브랜치로 푸시 (기본 스트림 설정)
 
 
-## 노트북pc
-index.html 파일 추가
-powershell 또는 명령프롬프트에서 작업
-git init
-git add .
-git commit -m "first commit"
-git branch -M main
-git remote add origin "repository 주소"
-git push -u origin main
-
-
-## vercel
-[add existing] - [add domain]
+## Vercel 배포 및 도메인 설정
+Vercel 대시보드에 접속
+[Add Existing]을 클릭 -> 위에서 푸시한 깃허브 저장소 가져오기
+프로젝트 설정 또는 대시보드에서 [Add Domain]을 선택하해 구매한 개인 도메인을 연결
