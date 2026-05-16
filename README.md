@@ -1,2 +1,2 @@
 ## domain
-i make it use to my domain server
+I made it to use my domain server
