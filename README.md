@@ -24,3 +24,7 @@ Vercel 대시보드에 접속
 [Add Existing]을 클릭 -> 위에서 푸시한 깃허브 저장소 가져오기
 
 프로젝트 설정 또는 대시보드에서 [Add Domain]을 선택하해 구매한 개인 도메인을 연결
+
+## 출처
+플래티콘 출처 표기 (작은 글씨)
+<sub>Icons made by [Flaticon](https://www.flaticon.com/kr/authors/creartive)</sub>
